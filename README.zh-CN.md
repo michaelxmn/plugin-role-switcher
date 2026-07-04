@@ -60,12 +60,12 @@ https://github.com/michaelxmn/plugin-role-switcher/releases
 输入插件安装包的下载地址，例如：
 
 ```text
-https://github.com/michaelxmn/plugin-role-switcher/releases/download/vx.x.x/plugin-role-switcher-x.x.x.tgz
+https://github.com/michaelxmn/plugin-role-switcher/releases/download/v1.0.0/plugin-role-switcher-1.0.0.tgz
 ```
 
 然后点击 **Install**。
 
-> 请将 `x.x.x` 替换为需要安装的版本号。
+> 请将 `v1.0.0` 替换为需要安装的版本号。
 
 ---
 

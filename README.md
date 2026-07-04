@@ -58,12 +58,12 @@ Open **Plugin Manager → Compressed File URL**.
 Enter the URL of the latest plugin package:
 
 ```text
-https://github.com/michaelxmn/plugin-role-switcher/releases/download/vx.x.x/plugin-role-switcher-x.x.x.tgz
+https://github.com/michaelxmn/plugin-role-switcher/releases/download/v1.0.0/plugin-role-switcher-1.0.0.tgz
 ```
 
 Then click **Install**.
 
-> Replace `x.x.x` with the desired release version.
+> Replace `v1.0.0` with the desired release version.
 
 ---
 
