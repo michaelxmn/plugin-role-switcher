@@ -1,0 +1,23 @@
+{
+  "name": "@michaelxmn/plugin-role-switcher",
+  "version": "2.1.12",
+  "displayName": "Role Switcher",
+  "displayName.zh-CN": "角色切换",
+  "description": "A NocoBase plugin for quickly switching user roles on the top bar.",
+  "description.zh-CN": "支持用户在顶部工具栏切换角色",
+  "keywords": [
+    "RoleSwitcher",
+    "RolesSwitcher",
+    "Roles Switcher",
+    "Role Switcher"
+  ],
+  "main": "dist/server/index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "@nocobase/flow-engine": "2.x",
+    "@nocobase/client": "2.x",
+    "@nocobase/client-v2": "2.x",
+    "@nocobase/server": "2.x",
+    "@nocobase/test": "2.x"
+  }
+}
