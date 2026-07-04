@@ -12,54 +12,64 @@ A NocoBase plugin that adds a **Role Switcher** to the top navigation bar, makin
 
 ## ✨ Preview
 
-> *(some screenshots or a GIF here.)*
+> *(Add screenshots or a GIF here.)*
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Installation
 
 Choose one of the following installation methods.
 
-### Install from npm (Recommended)
+### Option 1. Install from NPM Package (Recommended)
 
-```bash
-npm install @michaelxmn/plugin-role-switcher
+Open **Plugin Manager** in your NocoBase application.
+
+**Add Plugin → NPM Package**
+
+Enter the package name:
+
+```text
+@michaelxmn/plugin-role-switcher
 ```
 
-or
-
-```bash
-yarn add @michaelxmn/plugin-role-switcher
-```
+Then click **Install**.
 
 ---
 
-### Install from Local Package
+### Option 2. Upload a Plugin Package
 
-If your environment does not have Internet access, or you prefer offline installation, you can install the plugin from a local package.
+If your environment does not have Internet access, you can install the plugin from a local package.
 
-1. Download the latest **`.tgz`** package from the **GitHub Releases** page.
-2. Copy the package to your NocoBase server.
-3. Install it with npm or Yarn.
+1. Download the latest **`.tgz`** package from the GitHub Releases page.
+2. Open **Plugin Manager → Upload**.
+3. Select the downloaded `.tgz` package.
+4. Click **Install**.
 
-```bash
-npm install ./plugin-role-switcher-x.x.x.tgz
-```
+**Download:**
 
-or
-
-```bash
-yarn add ./plugin-role-switcher-x.x.x.tgz
-```
-
-> **Download:**
-> https://github.com/michaelxmn/plugin-role-switcher/releases
+https://github.com/michaelxmn/plugin-role-switcher/releases
 
 ---
 
-### Install from Source Code (Development)
+### Option 3. Install from a Compressed File URL
 
-This method is intended for plugin development and contributors.
+Open **Plugin Manager → Compressed File URL**.
+
+Enter the URL of the latest plugin package:
+
+```text
+https://github.com/michaelxmn/plugin-role-switcher/releases/download/vx.x.x/plugin-role-switcher-x.x.x.tgz
+```
+
+Then click **Install**.
+
+> Replace `x.x.x` with the desired release version.
+
+---
+
+### Option 4. Install from Source Code (Development)
+
+This method is intended for plugin developers and contributors.
 
 #### 1. Clone the NocoBase repository
 
@@ -89,18 +99,18 @@ yarn install
 yarn dev
 ```
 
-Once the application is running, enable the **Role Switcher** plugin in the NocoBase Plugin Manager if it is not enabled automatically.
-
+Once the application is running, enable **Role Switcher** in **Plugin Manager** if it is not enabled automatically.
 
 ---
 
-## 📦 Releases
+## 📦 Distribution
 
-| Method                | Description                              |
-| --------------------- | ---------------------------------------- |
-| npm                   | Install directly from the npm registry   |
-| GitHub Release (.tgz) | Offline installation                     |
-| Source Code           | For plugin development and customization |
+| Installation Method | Description                                       |
+| ------------------- | ------------------------------------------------- |
+| NPM Package         | Install directly from the NocoBase Plugin Manager |
+| Upload              | Install from a local `.tgz` package               |
+| Compressed File URL | Install directly from a hosted `.tgz` package     |
+| Source Code         | Plugin development and customization              |
 
 ---
 
@@ -117,20 +127,17 @@ Once the application is running, enable the **Role Switcher** plugin in the Noco
 
 ## 🤔 Why This Plugin?
 
-NocoBase already includes a built-in role switcher.
+NocoBase already provides built-in role switching.
 
-However, it is located inside the **User Center**, making it less noticeable to many users. Especially for new users, the feature can be difficult to discover.
+However, the feature is located inside the **User Center**, making it less discoverable for many users—especially first-time users.
 
-This plugin places the role switcher directly in the **top navigation bar**, making role switching more intuitive and significantly improving the user experience for administrators, developers, and users who frequently switch roles.
+This plugin moves the role switcher to the **top navigation bar**, making role switching more intuitive and significantly improving the experience for administrators, developers, and users who frequently switch roles.
 
 ---
 
-## 📖 Documentation
-
-### Requirements
+## 📖 Requirements
 
 * Node.js 20+
-* Yarn or npm
 * NocoBase 2.x
 
 ### Compatibility
