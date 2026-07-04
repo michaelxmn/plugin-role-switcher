@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Role Switcher",
   "displayName.zh-CN": "角色切换",
-  "description": "A NocoBase plugin for quickly switching user roles on the top bar.",
+  "description": "A NocoBase plugin for quickly switching user roles on the top navigation bar.",
   "description.zh-CN": "支持用户在顶部工具栏切换角色",
   "keywords": [
     "RoleSwitcher",

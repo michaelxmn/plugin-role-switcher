@@ -20,21 +20,19 @@
 
 请选择以下任意一种安装方式。
 
-### 方式一：通过 NPM Package 安装（推荐）
+### 方式一：通过压缩包链接安装（Compressed File URL）
 
-打开 NocoBase **插件管理（Plugin Manager）**。
+打开 **插件管理（Plugin Manager） → Compressed File URL**。
 
-选择：
-
-**添加插件（Add Plugin） → NPM Package**
-
-输入插件包名：
+输入插件安装包的下载地址，例如：
 
 ```text
-@michaelxmn/plugin-role-switcher
+https://github.com/michaelxmn/plugin-role-switcher/releases/download/v1.0.0/plugin-role-switcher-1.0.0.tgz
 ```
 
-然后点击 **Install** 即可完成安装。
+然后点击 **Install**。
+
+> 请将 `1.0.0` 替换为需要安装的版本号。
 
 ---
 
@@ -53,21 +51,24 @@ https://github.com/michaelxmn/plugin-role-switcher/releases
 
 ---
 
-### 方式三：通过压缩包链接安装（Compressed File URL）
+### 方式三：通过 NPM Package 安装
 
-打开 **插件管理（Plugin Manager） → Compressed File URL**。
+打开 NocoBase **插件管理（Plugin Manager）**。
 
-输入插件安装包的下载地址，例如：
+选择：
+
+**添加插件（Add Plugin） → NPM Package**
+
+输入插件包名：
 
 ```text
-https://github.com/michaelxmn/plugin-role-switcher/releases/download/v1.0.0/plugin-role-switcher-1.0.0.tgz
+@michaelxmn/plugin-role-switcher
 ```
 
-然后点击 **Install**。
-
-> 请将 `v1.0.0` 替换为需要安装的版本号。
+然后点击 **Install** 即可完成安装。
 
 ---
+
 
 ### 方式四：从源码安装（开发模式）
 

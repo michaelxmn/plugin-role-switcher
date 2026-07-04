@@ -20,19 +20,20 @@ A NocoBase plugin that adds a **Role Switcher** to the top navigation bar, makin
 
 Choose one of the following installation methods.
 
-### Option 1. Install from NPM Package (Recommended)
 
-Open **Plugin Manager** in your NocoBase application.
+### Option 1. Install from a Compressed File URL
 
-**Add Plugin → NPM Package**
+Open **Plugin Manager → Compressed File URL**.
 
-Enter the package name:
+Enter the URL of the latest plugin package:
 
 ```text
-@michaelxmn/plugin-role-switcher
+https://github.com/michaelxmn/plugin-role-switcher/releases/download/v1.0.0/plugin-role-switcher-1.0.0.tgz
 ```
 
 Then click **Install**.
+
+> Replace `1.0.0` with the desired release version.
 
 ---
 
@@ -51,19 +52,19 @@ https://github.com/michaelxmn/plugin-role-switcher/releases
 
 ---
 
-### Option 3. Install from a Compressed File URL
+### Option 3. Install from NPM Package
 
-Open **Plugin Manager → Compressed File URL**.
+Open **Plugin Manager** in your NocoBase application.
 
-Enter the URL of the latest plugin package:
+**Add Plugin → NPM Package**
+
+Enter the package name:
 
 ```text
-https://github.com/michaelxmn/plugin-role-switcher/releases/download/v1.0.0/plugin-role-switcher-1.0.0.tgz
+@michaelxmn/plugin-role-switcher
 ```
 
 Then click **Install**.
-
-> Replace `v1.0.0` with the desired release version.
 
 ---
 
