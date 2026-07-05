@@ -9,8 +9,18 @@
     "RoleSwitcher",
     "RolesSwitcher",
     "Roles Switcher",
-    "Role Switcher"
+    "Roles Switcher",
+    "role-switcher"
   ],
+  "homepage": "https://github.com/michaelxmn/plugin-role-switcher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelxmn/plugin-role-switcher.git"
+  },
+  "bugs": {
+  "url": "https://github.com/michaelxmn/plugin-role-switcher/issues"
+  },
+  "license": "MIT",
   "main": "dist/server/index.js",
   "dependencies": {},
   "peerDependencies": {
