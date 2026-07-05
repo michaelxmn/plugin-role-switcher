@@ -12,7 +12,7 @@ A NocoBase plugin that adds a **Role Switcher** to the top navigation bar, makin
 
 ## ✨ Preview
 
-> *(Add screenshots or a GIF here.)*
+![Demo](demo.gif)
 
 ---
 
